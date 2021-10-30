@@ -1,0 +1,38 @@
+
+blockquote {
+    color: green;
+}
+h3:first-child {
+    color: pink;
+}
+
+#greycol {
+    color: grey;
+}
+div div p {
+    color: red;
+}
+p:nth-child(7) {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
+a[href^='https'] {
+    color: red;
+}
+li:nth-child(4) a{
+    background-color: green;
+}
+ul + p {
+    font-size: 26px;
+}
+.pic {
+    width: 750px;
+    height: 450px;
+    background-color: green;
+    background-image: url(./img/pole-zelen-trava-dom-derevya.jpg), url(./img/lamp-png-34914.png), url(./img/Ёжик.png), url(./img/cherry-blossom-45504.png), url(./img/green-png-44873.png);
+    background-repeat: no-repeat, repeat-x, repeat-y, repeat-y, repeat-x;
+    background-size: 450px 300px, 40px 50px, 25px 25px, 25px 25px, 100px 100px;
+    background-position: 50% 50%, 0 0, 0 0, 100% 0, 0 100%;
+}
